@@ -1,4 +1,4 @@
-package main
+package leecode2235
 
 import "testing"
 
