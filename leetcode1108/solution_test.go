@@ -1,13 +1,11 @@
 package leetcode1108
 
-import "testing"
+import (
+	"github.com/stretchr/testify/assert"
+	"testing"
+)
 
 func Test_defangIPaddr(t *testing.T) {
 	address := "1.1.1.1"
-	res := defangIPaddr(address)
-
-	if res != "1[.]1[.]1[.]1" {
-		t.Errorf("not match")
-	}
-
+	assert.Equal(t, "1[.]1[.]1[.]1", defangIPaddr(address))
 }
