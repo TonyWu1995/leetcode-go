@@ -7,5 +7,5 @@ import (
 
 func TestCheckIfPangram(t *testing.T) {
 	assert.Equal(t, true, checkIfPangram("thequickbrownfoxjumpsoverthelazydog"))
-	//assert.Equal(t, false, checkIfPangram("leetcode"))
+	assert.Equal(t, false, checkIfPangram("leetcode"))
 }
