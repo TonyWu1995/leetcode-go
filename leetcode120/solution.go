@@ -1,4 +1,4 @@
-package Leetcode120
+package leetcode120
 
 import "math"
 
